@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  resolve: { alias: { '@': '/src' } }
+  resolve: { alias: { '@': '/src' } },
+  base: 'xiahpd/',   // <-- set to your repo name with slashes
 })
